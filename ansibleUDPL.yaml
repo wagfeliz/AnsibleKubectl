@@ -1,0 +1,6 @@
+- name: Transfer and execute a script.
+  hosts: kbm
+  tasks:
+
+     - name: Undeploy the app
+       script: /root/git/undeployALL.sh
